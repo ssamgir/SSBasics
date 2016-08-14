@@ -1,4 +1,4 @@
-
+Willupdate later
 The Beginner’s Guide to Objective c
 
 Perhaps my own experience with the Objective-C programming language will sound familiar to you. I grew up in a world of dots, semicolons, and curly braces that are known around the programming world as the familiar syntax of JavaScript, Java, C#, and many other programming languages. “Objective-C can’t be that hard” I thought. And then I looked at my first Objective-C code and I thought, “What is this hot mess? WHY ARE THERE SO MANY SQUARE BRACKETS?” Okay, let’s step back a moment. Spoiler alert: It isn’t that hard to learn Objective-C (and I’ve grown to love it). It is the main programming language used to write apps for the iPhone and iPad, and it is incredibly flexible and powerful and is actually very similar in many ways to other more popular programming languages.
