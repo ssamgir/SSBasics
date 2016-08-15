@@ -6,12 +6,14 @@
 
 Some of the more common data types we use in Objective-C include:
 
-1.int – An integer value, i.e. a whole number (no decimals) that includes zero and negative numbers.
-2.float – A floating point value that includes as many decimal places as it can hold. Because the decimal place can change, or float,    its important to know that these values may technically be imprecise. When precise decimals are needed, like for currency, we should use the NSDecimalNumber data type.
-3.BOOL – Short for “boolean”, this is a 1-bit “true” or “false” value that can only be in one of those states. The C language (and hence, Objective-C) treat 0 as “false” and 1 as “true”. As such, the following keywords can be used to represent true/false values: YES/NO, TRUE/FALSE, true/false, 1,0.
-4.char – A single character, such as the letter A or the symbol “#”. Note that lowercase and uppercase characters are different, so “a” and “A” are two different characters.
-5.NSString – String data is a bunch of characters strung together to make text, like a banner strung up at a party.
-6.NSNumber – This class is a lightweight “wrapper” class that gives object-oriented features to the primitive number types mentioned above (among others).
+*int –   An integer value, i.e. a whole number (no decimals) that includes zero and negative numbers.
+
+*float – A floating point value that includes as many decimal places as it can hold. Because the decimal place can change, or float,            its important to know that these values may technically be imprecise. When precise decimals are needed, like for currency,            we should use the NSDecimalNumber data type  
+ *BOOL –  Short for “boolean”, this is a 1-bit “true” or “false” value that can only be in one of those states. The C language (and            hence, Objective-C) treat 0 as “false” and 1 as “true”. As such, the following keywords can be used to represent true/false          values: YES/NO, TRUE/FALSE, true/false, 1,0
+*char –   A single character, such as the letter A or the symbol “#”. Note that lowercase and uppercase characters are different, so            “a” and “A” are two different characters
+* NSString – String data is a bunch of characters strung together to make text, like a banner strung up at a party
+
+*NSNumber – This class is a lightweight “wrapper” class that gives object-oriented features to the primitive number types mentioned              above (among others)
 
 The first four data types in the list above, int, float, BOOL, and char, are scalar (non-object) data types, which means that they are relatively simple and straightforward. The word “primitive” is also used to describe this type of data, as it is not as advanced as Object data types. Other scalar data types include short, double, and long. For more information about basic data types in Objective-C, check out Objective-C 2.0 Data Types. NSString and NSNumber begin with capital letters because they are more complex data types. They are actually objects, and the naming convention in Objective-C is that object names should start with a capital letter. An object is different than a primitive data type because it has more complex properties and methods available to it, whereas the primitive data types are limited and straightforward. For example, we can send a message called length to an NSString object, and the NSString will tell us how many characters are in the text. The int data type does not respond to any messages like that. You might also be wondering why NSString and NSNumber start with the letters “NS” instead of being named String and Number. Objects are defined in class files (more on classes in Part 2), and all classes that get used in Objective-C get loaded into the same place, which means that classes with the same names can cause problems. To try to avoid the same names, Objective-C adopted the convention of adding a 2 or 3 letter prefix to class names to indicate where they come from. “NS” comes from NeXT and the NeXTSTEP Computer, which was the company Steve Jobs founded after being forced out of Apple in the 80s.
 Variables
