@@ -1,17 +1,16 @@
-#The Beginner’s Guide to Objective c
-
-#Objective-C the Programming Language
-
 ## Basic Data Types
 
 Some of the more common data types we use in Objective-C include:
 
-*int –   An integer value, i.e. a whole number (no decimals) that includes zero and negative numbers.
+*int* –   An integer value, i.e. a whole number (no decimals) that includes zero and negative numbers.
 
-*float – A floating point value that includes as many decimal places as it can hold. Because the decimal place can change, or float,            its important to know that these values may technically be imprecise. When precise decimals are needed, like for currency,            we should use the NSDecimalNumber data type  
- *BOOL –  Short for “boolean”, this is a 1-bit “true” or “false” value that can only be in one of those states. The C language (and            hence, Objective-C) treat 0 as “false” and 1 as “true”. As such, the following keywords can be used to represent true/false          values: YES/NO, TRUE/FALSE, true/false, 1,0
-*char –   A single character, such as the letter A or the symbol “#”. Note that lowercase and uppercase characters are different, so            “a” and “A” are two different characters
-* NSString – String data is a bunch of characters strung together to make text, like a banner strung up at a party
+*float* – A floating point value that includes as many decimal places as it can hold. Because the decimal place can change, or float,            its important to know that these values may technically be imprecise. When precise decimals are needed, like for currency,            we should use the NSDecimalNumber data type  
+
+*BOOL* –  Short for “boolean”, this is a 1-bit “true” or “false” value that can only be in one of those states. The C language (and               hence, Objective-C) treat 0 as “false” and 1 as “true”. As such, the following keywords can be used to represent true/false           values: YES/NO, TRUE/FALSE, true/false, 1,0
+
+*char* –   A single character, such as the letter A or the symbol “#”. Note that lowercase and uppercase characters are different, so            “a” and “A” are two different characters
+
+*NSString* – String data is a bunch of characters strung together to make text, like a banner strung up at a party
 
 *NSNumber – This class is a lightweight “wrapper” class that gives object-oriented features to the primitive number types mentioned              above (among others)
 
@@ -34,94 +33,3 @@ One Last Thing: Static vs. Dynamic Typing
 Remember a moment ago when we talked about Objective-C being a statically-typed language, meaning that “the type of data each variable (or container) will hold is declared up front?” Well, that’s sort of true, but doesn’t describe the whole picture. I don’t want to overload this post with details about the language, but it’s important to mention that Objective-C is also a dynamic language, which means that some parts of our code can be extended and modified while our apps are running (i.e. after they’ve already been compiled). One example is the use of the generic data type called id. id can be used to represent any kind of data type. It’s the most generic form of specifying data; it simply stands for an “identifier” that is used to reference data. This type of dynamic typing allows for increased flexibility in how we code certain things. In iOS, we often see id used for methods that are tied to controls on the screen, like:
 - (IBAction)save:(id)sender;
 This is the declaration of a method, which we’ll talk about in an upcoming post. But notice that the sender parameter is of type id. This allows some flexibility in that our app doesn’t care if the sender is a button or an image or whatever else we might want to use to trigger this action.
-Stay Tuned
-There is a lot to cover for even the basic syntax and concepts of Objective-C, so stay tuned for upcoming posts about things like classes, messages/methods/functions, conditionals, and loops! If you want to try some of this out yourself in the browser, check out Build a Simple iPhone App, which includes some exciting Code Challenges to get some practice with Objective-C. You might also like Objective-C Basics, our newest course on learning Objective-C.
-
-
-code
-iOS
-iphone
-make an app
-objective-c
-programming
-programming language
-variables
-14 Responses to “The Beginner’s Guide to Objective-C: Language and Variables” 
-
-
-Joshua Pinter on March 28, 2016 at 10:01 am said: 
-As always Ben, great job. You’re a natural teacher with a deep understanding of the subject matter.
-You taught me the basics of Android a couple years ago and won’t you imagine my delight when I see now you’re teaching me some Obj-c! 
-Reply 
-Ben Jakuben on March 28, 2016 at 11:45 am said: 
-Thanks so much! And thanks for your notes on the other post: I’ll update it soon. We released updated courses on Objective-C that are really well done by Gabe Nadel, so be sure to check those out, too. We also have a workshop comparing Objective-C and Swift, with more on the way. 
-Reply 
-業界最高峰のブランドコピー 激安、コピーブランド、スーパーコピーブランド(N級品)通販専門店!ブランドコピー,コピーブランド,スーパーコピーブランド,ブランドコピー 激安,偽物ブラン on November 14, 2015 at 2:26 pm said: 
-コピーカルティエ時計，コピーオメガ時計，コピーその他時計の專門店ロレックス、ウブロをはじめとした、様々なスーパーコピー時計の販売?サイズ調整をご提供しております。
-業界最高峰のブランドコピー 激安、コピーブランド、スーパーコピーブランド(N級品)通販専門店!ブランドコピー,コピーブランド,スーパーコピーブランド,ブランドコピー 激安,偽物ブランド、偽物のバッグ、腕時計、財布など激安で買える！全部のスーパーコピー販売品物のなかで私達のブランド激安が一番有名です http://www.ooowatch.com/tokei/zenith/index.html
-Reply 
-JoeyBB on October 8, 2013 at 2:27 am said: 
-The analogies you have used are so effective in teaching beginners like myself the basics of IOS programming. I have read a number of books, but none of them are as effective as yours. I am now a fan of your work. Please keep me posted of all your work!
-Reply 
-Webmaster Blog on August 19, 2013 at 5:46 am said: 
-Its like you read my mind! You seem to know so much about this, like you wrote the book in it or something. I think that you can do with a few pics to drive the message home a bit, but instead of that, this is excellent blog. A fantastic read. I’ll certainly be back.
-Reply 
-Bendog24 on August 19, 2013 at 9:28 am said: 
-Thank you, and thanks for the tip! I will try to include more photos in my next post. 
-Reply 
-janyen on August 17, 2013 at 3:28 am said: 
-Wow. Thanks for this excellent guide  reptiles puzzles
-Reply 
-Noodle on August 16, 2013 at 3:09 am said: 
-I am grateful to have read the entire article, since I shall be commencing my iOS Development Training next week. I have read tons of articles prior to the training, I must say yours is one that simply makes a newbie to the language understand the basics. Way to go, Ben. I am a C#.Net/VB.Net programmer and I think Objective C isn’t that difficult – yet.
-Reply 
-Bendog24 on August 16, 2013 at 8:39 am said: 
-Thanks so much! That’s exactly how I am trying to write this series. Stay tuned for more, and good luck!
-Reply 
-Laura Ferrel on August 15, 2013 at 10:46 am said: 
-Wow, today I cam across this guide too for beginners: http://ios-blog.co.uk/tutorials/objective-c-guide-for-developers-part-1/ – This must just be one of those days where I need to stop thinking about developing and actually start coding 
-Reply 
-Bendog24 on August 15, 2013 at 11:25 am said: 
-Another great find! I’ll reference that other blog post in the future, too. And today is definitely a great day to start coding!
-Reply 
-iOS-Blog on August 16, 2013 at 8:49 am said: 
-We just got a ping back that you posted this here. I’m glad you find the tutorial useful. And I agree with the author, today is a great day to start coding. Get to it  This tutorial is great too. 
-Reply 
-Alex on August 15, 2013 at 10:12 am said: 
-Great Post!
-Reply 
-Bendog24 on August 15, 2013 at 10:19 am said: 
-Thanks! Stay tuned for at least two more to follow about Objective-C. 
-Reply 
-
-
-Leave a Reply
-
- 
-Name *
- 
-Email Address (will not be published) *
- 
-Website
-
- 
- 
-Want to learn more about iOS? 
-iOS is the operating system that powers iPhones and iPads. Learn the language, tools and frameworks to build interactive apps on the iOS platform. 
-Learn more 
-Stay current
-Sign up for our newsletter, and we'll send you news and tutorials on web design, coding, business, and more!
- 
-
-
-
-
-©2016 Treehouse Island, Inc. 
-
-About • Careers • Blog • Affiliate Program • Terms • Privacy • Press Kit • Contact 
-
-
-
-
-
-
