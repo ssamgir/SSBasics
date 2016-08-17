@@ -1,7 +1,7 @@
 #Model View Controller Design Pattern
 
 
-
+![MVC](https://github.com/ssamgir/SSBasicsOfObjectiveC/blob/master/model-view-controller-diagram-no-arrows.png)
 
 ###View: The View is responsible for displaying the data on the screen from the Controller and receiving user gestures and relaying that back to the Controller.
 
