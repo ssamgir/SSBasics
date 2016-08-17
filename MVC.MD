@@ -15,7 +15,7 @@
 
 This diagram below illustrates the rules:
 
-
+![flow](https://github.com/ssamgir/SSBasicsOfObjectiveC/blob/master/model-view-controller-diagram.png)
 ###1. The View never directly sends or receives information to/from the Model.
 
 ###2. The Controller serves as the “middle-man” between the View and the Model
