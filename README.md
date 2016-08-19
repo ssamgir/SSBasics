@@ -3,10 +3,10 @@
 # Contents
 -	[Delegate](#Delegate)
 -	[Data Types](#Data Types)
+-	[Model View Controller Design Pattern](#Model View Controller Design Pattern)
 -	[Properties](#Properties)
--	[Contribution](#contribution)
--	[Credits](#credits)
--	[License](#license)
+-	[UI Specific Elements](#UI Specific Elements)
+
 
 
 ###Delegate
@@ -97,7 +97,7 @@ It is only possible with the properties we can access the instance variables of 
 For example, let's assume we have a property @property (nonatomic ,readonly ) BOOL isDone. Under the hood, there are setters and getters created as shown below.
 
 
-SN 	UI Specific Elements
+##UI Specific Elements
 
 1	 Text Fields -It is an UI element that enables the app to get user input
 
