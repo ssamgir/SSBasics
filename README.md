@@ -3,13 +3,13 @@
 # Contents
 -	[Delegate](#Delegate)
 -	[Data Types](#Data Types)
--	[Installation](#installation)
+-	[Properties](#Properties)
 -	[Contribution](#contribution)
 -	[Credits](#credits)
 -	[License](#license)
 
 
-##Delegate
+###Delegate
 
 ###Let's assume an object A calls an object B to perform an action. Once the action is complete, object A should know that B has completed the task and take necessary action. This is achieved with the help of delegates.
 
@@ -24,7 +24,7 @@
 ##*B will notify A through the delegate methods.
 
 
-#Data Types
+###Data Types
 
 >Type|Description
 >-----|------------------------------------------------------------
@@ -76,7 +76,7 @@ If we didn’t follow the rules and had all the components communicating with ev
 
 The MVC pattern may seem very abstract to you right now but don’t worry because as we build more demo apps together, it’ll become increasingly apparent how our apps follow this software design pattern.
 
-#Properties
+###Properties
 
 *Properties are introduced in Objective-C to ensure that the instance variable of the class can be accessed outside the class.
 
