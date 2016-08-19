@@ -1,7 +1,15 @@
 #Objective C Basics
 
+# Contents
+-	[Delegate](#Delegate)
+-	[Data Types](#Data Types)
+-	[Installation](#installation)
+-	[Contribution](#contribution)
+-	[Credits](#credits)
+-	[License](#license)
 
-#Delegate
+
+##Delegate
 
 ###Let's assume an object A calls an object B to perform an action. Once the action is complete, object A should know that B has completed the task and take necessary action. This is achieved with the help of delegates.
 
